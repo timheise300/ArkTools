@@ -1,0 +1,88 @@
+﻿@page "/baby"
+@rendermode InteractiveServer
+
+<PageTitle>BabyLevelCalculator</PageTitle>
+
+<MudCard Style="width:400px">
+    <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h6">Baby Level Calculator</MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <MudForm>
+        <MudCardContent>
+            <MudTextField @bind-Value="motherLevel" Label="Mother Level"  Variant="Variant.Outlined"/>
+            <MudTextField @bind-Value="fatherLevel" Label="Father Level"  Variant="Variant.Outlined"/>
+            <MudButton OnClick="HatchDino" Variant="Variant.Filled" Label="">Hatch!</MudButton>
+        </MudCardContent>
+    </MudForm>
+</MudCard>
+<br />
+
+@if(messageList.Count > 0)
+{
+    <MudPaper Width="400px">
+        <MudList Clickable="false">
+            @foreach (string message in messageList.TakeLast(5))
+            {
+                <MudListItem Text="@message" Icon="@Icons.Material.Filled.EggAlt" Style="@($"color:{lightenStyle};")" />
+            }
+        </MudList>
+    </MudPaper>
+}
+
+
+@code {
+    private int motherLevel;
+    private int fatherLevel;
+    private string? hatchMessage;
+    private List<string> messageList = new();
+
+    private string lightenStyle = "Colors.Grey.Lighten1";
+
+    private void HatchDino()
+    {
+        if (motherLevel <= 0 || fatherLevel <= 0)
+        {
+            hatchMessage = "Parent levels must be higher than zero";
+            return;
+        }
+
+        int dinoCount = GetDinoCount();
+
+        int randRoll = Random.Shared.Next(1, 20);
+        int level = randRoll switch
+        {
+            1              => Math.Min(motherLevel, fatherLevel) - 5,
+            >= 2 and <= 19 => GetRandomLevel(motherLevel, fatherLevel),
+            20             => Math.Max(motherLevel, fatherLevel) + 5,
+            _              => throw new Exception()
+        };
+
+        hatchMessage = $"you had {dinoCount} bab{(dinoCount.Equals(1) ? "y" : "ies")}, level {level}, spawn level {Math.Round(level/1.5)}!";
+        messageList = messageList.Prepend(hatchMessage).ToList();
+    }
+
+    private int GetRandomLevel(int levelOne, int levelTwo) => 
+        Random.Shared.Next(Math.Min(levelOne, levelTwo), Math.Max(levelOne, levelTwo));
+
+    private int GetDinoCount()
+    {
+        int randRoll = Random.Shared.Next(1, 100);
+        int result = randRoll switch
+        {
+            >= 1 and <= 3    => 3,
+            >= 4 and <= 13   => 2,
+            >= 14 and <= 100 => 1,
+            _ => 0
+        };
+
+        return result;
+    }
+
+    private void UpdateStyle(int index)
+    {
+        lightenStyle = $"Colors.Grey.Lighten{index}";
+        StateHasChanged();
+    }
+}
