@@ -1,0 +1,910 @@
+[
+  {
+    "color": "Red ",
+    "sRGB": "#ff0000"
+  },
+  {
+    "color": "Blue",
+    "sRGB": "#0000ff"
+  },
+  {
+    "color": "Green",
+    "sRGB": "#00ff00"
+  },
+  {
+    "color": "Yellow",
+    "sRGB": "#ffff00"
+  },
+  {
+    "color": "Cyan",
+    "sRGB": "#00ffff"
+  },
+  {
+    "color": "Magenta",
+    "sRGB": "#ff00ff"
+  },
+  {
+    "color": "Light Green",
+    "sRGB": "#c0ffba"
+  },
+  {
+    "color": "Light Grey",
+    "sRGB": "#c8caca"
+  },
+  {
+    "color": "Light Brown",
+    "sRGB": "#786759"
+  },
+  {
+    "color": "Light Orange",
+    "sRGB": "#ffb46c"
+  },
+  {
+    "color": "Light Yellow",
+    "sRGB": "#fffa8a"
+  },
+  {
+    "color": "Light Red",
+    "sRGB": "#ff756c"
+  },
+  {
+    "color": "Dark Grey",
+    "sRGB": "#7b7b7b"
+  },
+  {
+    "color": "Black",
+    "sRGB": "#3b3b3b"
+  },
+  {
+    "color": "Brown",
+    "sRGB": "#593a2a"
+  },
+  {
+    "color": "Dark Green",
+    "sRGB": "#224900"
+  },
+  {
+    "color": "Dark Red",
+    "sRGB": "#812118"
+  },
+  {
+    "color": "White",
+    "sRGB": "#ffffff"
+  },
+  {
+    "color": "Dino Light Red",
+    "sRGB": "#ffa8a8"
+  },
+  {
+    "color": "Dino Dark Red",
+    "sRGB": "#592b2b"
+  },
+  {
+    "color": "Dino Light Orange",
+    "sRGB": "#ffb694"
+  },
+  {
+    "color": "Dino Dark Orange",
+    "sRGB": "#88532f"
+  },
+  {
+    "color": "Dino Light Yellow",
+    "sRGB": "#cacaa0"
+  },
+  {
+    "color": "Dino Dark Yellow",
+    "sRGB": "#94946c"
+  },
+  {
+    "color": "Dino Light Green",
+    "sRGB": "#e0ffe0"
+  },
+  {
+    "color": "Dino Medium Green",
+    "sRGB": "#799479"
+  },
+  {
+    "color": "Dino Dark Green",
+    "sRGB": "#224122"
+  },
+  {
+    "color": "Dino Light Blue",
+    "sRGB": "#d9e0ff"
+  },
+  {
+    "color": "Dino Dark Blue",
+    "sRGB": "#394263"
+  },
+  {
+    "color": "Dino Light Purple",
+    "sRGB": "#e4d9ff"
+  },
+  {
+    "color": "Dino Dark Purple",
+    "sRGB": "#403459"
+  },
+  {
+    "color": "Dino Light Brown",
+    "sRGB": "#ffe0ba"
+  },
+  {
+    "color": "Dino Medium Brown",
+    "sRGB": "#948575"
+  },
+  {
+    "color": "Dino Dark Brown",
+    "sRGB": "#594e41"
+  },
+  {
+    "color": "Dino Darker Grey",
+    "sRGB": "#595959"
+  },
+  {
+    "color": "Dino Albino",
+    "sRGB": "#ffffff"
+  },
+  {
+    "color": "BigFoot0",
+    "sRGB": "#b79683"
+  },
+  {
+    "color": "BigFoot4",
+    "sRGB": "#eadad5"
+  },
+  {
+    "color": "BigFoot5",
+    "sRGB": "#d0a794"
+  },
+  {
+    "color": "WolfFur",
+    "sRGB": "#c3b39f"
+  },
+  {
+    "color": "DarkWolfFur",
+    "sRGB": "#887666"
+  },
+  {
+    "color": "DragonBase0",
+    "sRGB": "#a0664b"
+  },
+  {
+    "color": "DragonBase1",
+    "sRGB": "#cb7956"
+  },
+  {
+    "color": "DragonFire",
+    "sRGB": "#bc4f00"
+  },
+  {
+    "color": "DragonGreen0",
+    "sRGB": "#79846c"
+  },
+  {
+    "color": "DragonGreen1",
+    "sRGB": "#909c79"
+  },
+  {
+    "color": "DragonGreen2",
+    "sRGB": "#a5a48b"
+  },
+  {
+    "color": "DragonGreen3",
+    "sRGB": "#74939c"
+  },
+  {
+    "color": "WyvernPurple0",
+    "sRGB": "#787496"
+  },
+  {
+    "color": "WyvernPurple1",
+    "sRGB": "#b0a2c0"
+  },
+  {
+    "color": "WyvernBlue0",
+    "sRGB": "#6281a7"
+  },
+  {
+    "color": "WyvernBlue1",
+    "sRGB": "#485c75"
+  },
+  {
+    "color": "Dino Medium Blue",
+    "sRGB": "#5fa4ea"
+  },
+  {
+    "color": "Dino Deep Blue",
+    "sRGB": "#4568d4"
+  },
+  {
+    "color": "NearWhite",
+    "sRGB": "#ededed"
+  },
+  {
+    "color": "NearBlack",
+    "sRGB": "#515151"
+  },
+  {
+    "color": "DarkTurquoise",
+    "sRGB": "#184546"
+  },
+  {
+    "color": "MediumTurquoise",
+    "sRGB": "#007060"
+  },
+  {
+    "color": "Turquoise",
+    "sRGB": "#00c5ab"
+  },
+  {
+    "color": "GreenSlate",
+    "sRGB": "#40594c"
+  },
+  {
+    "color": "Sage",
+    "sRGB": "#3e4f40"
+  },
+  {
+    "color": "DarkWarmGray",
+    "sRGB": "#3b3938"
+  },
+  {
+    "color": "MediumWarmGray",
+    "sRGB": "#585554"
+  },
+  {
+    "color": "LightWarmGray",
+    "sRGB": "#9b9290"
+  },
+  {
+    "color": "DarkCement",
+    "sRGB": "#525b56"
+  },
+  {
+    "color": "LightCement",
+    "sRGB": "#8aa196"
+  },
+  {
+    "color": "LightPink",
+    "sRGB": "#e8b0ff"
+  },
+  {
+    "color": "DeepPink",
+    "sRGB": "#ff119a"
+  },
+  {
+    "color": "DarkViolet",
+    "sRGB": "#730046"
+  },
+  {
+    "color": "DarkMagenta",
+    "sRGB": "#b70042"
+  },
+  {
+    "color": "BurntSienna",
+    "sRGB": "#7e331e"
+  },
+  {
+    "color": "MediumAutumn",
+    "sRGB": "#a93000"
+  },
+  {
+    "color": "Vermillion",
+    "sRGB": "#ef3100"
+  },
+  {
+    "color": "Coral",
+    "sRGB": "#ff5834"
+  },
+  {
+    "color": "Orange",
+    "sRGB": "#ff7f00"
+  },
+  {
+    "color": "Peach",
+    "sRGB": "#ffa73a"
+  },
+  {
+    "color": "LightAutumn",
+    "sRGB": "#ae7000"
+  },
+  {
+    "color": "Mustard",
+    "sRGB": "#949427"
+  },
+  {
+    "color": "ActualBlack",
+    "sRGB": "#171717"
+  },
+  {
+    "color": "MidnightBlue",
+    "sRGB": "#191d36"
+  },
+  {
+    "color": "DarkBlue",
+    "sRGB": "#152b3a"
+  },
+  {
+    "color": "BlackSands",
+    "sRGB": "#302531"
+  },
+  {
+    "color": "LemonLime",
+    "sRGB": "#a8ff44"
+  },
+  {
+    "color": "Mint",
+    "sRGB": "#38e985"
+  },
+  {
+    "color": "Jade",
+    "sRGB": "#008840"
+  },
+  {
+    "color": "PineGreen",
+    "sRGB": "#0f552e"
+  },
+  {
+    "color": "SpruceGreen",
+    "sRGB": "#005b45"
+  },
+  {
+    "color": "LeafGreen",
+    "sRGB": "#5b9725"
+  },
+  {
+    "color": "DarkLavender",
+    "sRGB": "#5e275f"
+  },
+  {
+    "color": "MediumLavender",
+    "sRGB": "#853587"
+  },
+  {
+    "color": "Lavender",
+    "sRGB": "#bd77be"
+  },
+  {
+    "color": "DarkTeal",
+    "sRGB": "#0e404a"
+  },
+  {
+    "color": "MediumTeal",
+    "sRGB": "#105563"
+  },
+  {
+    "color": "Teal",
+    "sRGB": "#14849c"
+  },
+  {
+    "color": "PowderBlue",
+    "sRGB": "#82a7ff"
+  },
+  {
+    "color": "Glacial",
+    "sRGB": "#aceaff"
+  },
+  {
+    "color": "Cammo",
+    "sRGB": "#505118"
+  },
+  {
+    "color": "DryMoss",
+    "sRGB": "#766e3f"
+  },
+  {
+    "color": "Custard",
+    "sRGB": "#c0bd5e"
+  },
+  {
+    "color": "Cream",
+    "sRGB": "#f4ffc0"
+  },
+  {
+    "color": "Burn Coloring",
+    "sRGB": "#330000"
+  },
+  {
+    "color": "Scab Coloring",
+    "sRGB": "#660000"
+  },
+  {
+    "color": "Gore Coloring",
+    "sRGB": "#B30000"
+  },
+  {
+    "color": "Red Coloring",
+    "sRGB": "#FF0000"
+  },
+  {
+    "color": "Tulip Coloring",
+    "sRGB": "#FF7373"
+  },
+  {
+    "color": "Salmon Coloring",
+    "sRGB": "#FFBFBF"
+  },
+  {
+    "color": "Incense Coloring",
+    "sRGB": "#D98D8D"
+  },
+  {
+    "color": "Edocha Coloring",
+    "sRGB": "#A65353"
+  },
+  {
+    "color": "Bronze Coloring",
+    "sRGB": "#331900"
+  },
+  {
+    "color": "Terracotta Coloring",
+    "sRGB": "#663300"
+  },
+  {
+    "color": "Windsor Coloring",
+    "sRGB": "#B35900"
+  },
+  {
+    "color": "Orange Coloring",
+    "sRGB": "#FF7F00"
+  },
+  {
+    "color": "Cantaloupe Coloring",
+    "sRGB": "#FFB973"
+  },
+  {
+    "color": "Peach Coloring",
+    "sRGB": "#FFDFBF"
+  },
+  {
+    "color": "Latte Coloring",
+    "sRGB": "#D9B38D"
+  },
+  {
+    "color": "Dirt Coloring",
+    "sRGB": "#A67C53"
+  },
+  {
+    "color": "Drab Coloring",
+    "sRGB": "#333300"
+  },
+  {
+    "color": "Olive Coloring",
+    "sRGB": "#666600"
+  },
+  {
+    "color": "Citron Coloring",
+    "sRGB": "#B2B300"
+  },
+  {
+    "color": "Yellow Coloring",
+    "sRGB": "#FFFF00"
+  },
+  {
+    "color": "Canary Coloring",
+    "sRGB": "#FFFF73"
+  },
+  {
+    "color": "Buttermilk Coloring",
+    "sRGB": "#FFFFBF"
+  },
+  {
+    "color": "Khaki Coloring",
+    "sRGB": "#D9D98D"
+  },
+  {
+    "color": "Mold Coloring",
+    "sRGB": "#A6A653"
+  },
+  {
+    "color": "Swamp Coloring",
+    "sRGB": "#193300"
+  },
+  {
+    "color": "Avocado Coloring",
+    "sRGB": "#336600"
+  },
+  {
+    "color": "Orc Coloring",
+    "sRGB": "#59B300"
+  },
+  {
+    "color": "Chartreuse Coloring",
+    "sRGB": "#80FF00"
+  },
+  {
+    "color": "Menthol Coloring",
+    "sRGB": "#B9FF73"
+  },
+  {
+    "color": "Nyanza Coloring",
+    "sRGB": "#DFFFBF"
+  },
+  {
+    "color": "Putrescence Coloring",
+    "sRGB": "#B3D98D"
+  },
+  {
+    "color": "Filth Coloring",
+    "sRGB": "#7CA653"
+  },
+  {
+    "color": "Nori Coloring",
+    "sRGB": "#003300"
+  },
+  {
+    "color": "Hunter Coloring",
+    "sRGB": "#006600"
+  },
+  {
+    "color": "Emerald Coloring",
+    "sRGB": "#00B300"
+  },
+  {
+    "color": "Green Coloring",
+    "sRGB": "#00FF00"
+  },
+  {
+    "color": "Mint Coloring",
+    "sRGB": "#73FF73"
+  },
+  {
+    "color": "Pistachio Coloring",
+    "sRGB": "#BFFFBF"
+  },
+  {
+    "color": "Celadon Coloring",
+    "sRGB": "#8DD98D"
+  },
+  {
+    "color": "Chateau Coloring",
+    "sRGB": "#53A653"
+  },
+  {
+    "color": "Jungle Coloring",
+    "sRGB": "#00331A"
+  },
+  {
+    "color": "Forest Coloring",
+    "sRGB": "#006633"
+  },
+  {
+    "color": "Lagoon Coloring",
+    "sRGB": "#00B359"
+  },
+  {
+    "color": "Spring Coloring",
+    "sRGB": "#00FF80"
+  },
+  {
+    "color": "Aquamarine Coloring",
+    "sRGB": "#73FFB9"
+  },
+  {
+    "color": "Seafoam Coloring",
+    "sRGB": "#BFFFDF"
+  },
+  {
+    "color": "Turquoise Coloring",
+    "sRGB": "#8DD9B3"
+  },
+  {
+    "color": "Shamrock Coloring",
+    "sRGB": "#53A67C"
+  },
+  {
+    "color": "Mariana Coloring",
+    "sRGB": "#003333"
+  },
+  {
+    "color": "Skobeloff Coloring",
+    "sRGB": "#006666"
+  },
+  {
+    "color": "Teal Coloring",
+    "sRGB": "#00B3B3"
+  },
+  {
+    "color": "Cyan Coloring",
+    "sRGB": "#00FFFF"
+  },
+  {
+    "color": "Electricity Coloring",
+    "sRGB": "#73FFFF"
+  },
+  {
+    "color": "Celeste Coloring",
+    "sRGB": "#BFFFFF"
+  },
+  {
+    "color": "Crystal Coloring",
+    "sRGB": "#8DD9D9"
+  },
+  {
+    "color": "Ocean Coloring",
+    "sRGB": "#53A6A6"
+  },
+  {
+    "color": "Cetecean Coloring",
+    "sRGB": "#001A33"
+  },
+  {
+    "color": "Prussian Coloring",
+    "sRGB": "#003366"
+  },
+  {
+    "color": "Sapphire Coloring",
+    "sRGB": "#0059B3"
+  },
+  {
+    "color": "Azure Coloring",
+    "sRGB": "#007FFF"
+  },
+  {
+    "color": "Babyblue Coloring",
+    "sRGB": "#73B9FF"
+  },
+  {
+    "color": "Cornflower Coloring",
+    "sRGB": "#BFDFFF"
+  },
+  {
+    "color": "Overcast Coloring",
+    "sRGB": "#8CB2D9"
+  },
+  {
+    "color": "Moonstone Coloring",
+    "sRGB": "#537CA6"
+  },
+  {
+    "color": "Midnight Coloring",
+    "sRGB": "#000033"
+  },
+  {
+    "color": "Navy Coloring",
+    "sRGB": "#000066"
+  },
+  {
+    "color": "Cobalt Coloring",
+    "sRGB": "#0000B3"
+  },
+  {
+    "color": "Blue Coloring",
+    "sRGB": "#0000FF"
+  },
+  {
+    "color": "Denim Coloring",
+    "sRGB": "#7373FF"
+  },
+  {
+    "color": "Ice Coloring",
+    "sRGB": "#BFBFFF"
+  },
+  {
+    "color": "Frost Coloring",
+    "sRGB": "#8C8CD9"
+  },
+  {
+    "color": "Deepfreeze Coloring",
+    "sRGB": "#5353A6"
+  },
+  {
+    "color": "Twilight Coloring",
+    "sRGB": "#190033"
+  },
+  {
+    "color": "Eminence Coloring",
+    "sRGB": "#330066"
+  },
+  {
+    "color": "Indigo Coloring",
+    "sRGB": "#5900B3"
+  },
+  {
+    "color": "Violet Coloring",
+    "sRGB": "#8000FF"
+  },
+  {
+    "color": "Lilac Coloring",
+    "sRGB": "#B973FF"
+  },
+  {
+    "color": "Lavender Coloring",
+    "sRGB": "#DFBFFF"
+  },
+  {
+    "color": "Mauve Coloring",
+    "sRGB": "#B38DD9"
+  },
+  {
+    "color": "Royalty Coloring",
+    "sRGB": "#7C53A6"
+  },
+  {
+    "color": "Eggplant Coloring",
+    "sRGB": "#330033"
+  },
+  {
+    "color": "Plum Coloring",
+    "sRGB": "#660066"
+  },
+  {
+    "color": "Purple Coloring",
+    "sRGB": "#B200B3"
+  },
+  {
+    "color": "Magenta Coloring",
+    "sRGB": "#FF00FF"
+  },
+  {
+    "color": "Pink Coloring",
+    "sRGB": "#FF73FF"
+  },
+  {
+    "color": "Cottoncandy Coloring",
+    "sRGB": "#FFBFFF"
+  },
+  {
+    "color": "Orchid Coloring",
+    "sRGB": "#D98DD9"
+  },
+  {
+    "color": "Bruise Coloring",
+    "sRGB": "#A653A6"
+  },
+  {
+    "color": "Raisin Coloring",
+    "sRGB": "#330019"
+  },
+  {
+    "color": "Tyrian Coloring",
+    "sRGB": "#660033"
+  },
+  {
+    "color": "Lust Coloring",
+    "sRGB": "#B30059"
+  },
+  {
+    "color": "Fuschia Coloring",
+    "sRGB": "#FF007F"
+  },
+  {
+    "color": "Flamingo Coloring",
+    "sRGB": "#FF73B9"
+  },
+  {
+    "color": "Valentine Coloring",
+    "sRGB": "#FFBFDF"
+  },
+  {
+    "color": "Kobi Coloring",
+    "sRGB": "#D98DB3"
+  },
+  {
+    "color": "Rouge Coloring",
+    "sRGB": "#A6537C"
+  },
+  {
+    "color": "Black Coloring",
+    "sRGB": "#191919"
+  },
+  {
+    "color": "Shadow Coloring",
+    "sRGB": "#333333"
+  },
+  {
+    "color": "Charcoal Coloring",
+    "sRGB": "#4D4D4D"
+  },
+  {
+    "color": "Gunmetal Coloring",
+    "sRGB": "#666666"
+  },
+  {
+    "color": "Slate Coloring",
+    "sRGB": "#808080"
+  },
+  {
+    "color": "Steel Coloring",
+    "sRGB": "#999999"
+  },
+  {
+    "color": "Grey Coloring",
+    "sRGB": "#B3B3B3"
+  },
+  {
+    "color": "Silver Coloring",
+    "sRGB": "#CCCCCC"
+  },
+  {
+    "color": "Wisp Coloring",
+    "sRGB": "#E6E6E6"
+  },
+  {
+    "color": "White Coloring",
+    "sRGB": "#FFFFFF"
+  },
+  {
+    "color": "Mud Coloring",
+    "sRGB": "#403522"
+  },
+  {
+    "color": "Bark Coloring",
+    "sRGB": "#594724"
+  },
+  {
+    "color": "Brown Coloring",
+    "sRGB": "#80642D"
+  },
+  {
+    "color": "Leather Coloring",
+    "sRGB": "#99823D"
+  },
+  {
+    "color": "Camel Coloring",
+    "sRGB": "#B39C59"
+  },
+  {
+    "color": "Tan Coloring",
+    "sRGB": "#CCB266"
+  },
+  {
+    "color": "Sand Coloring",
+    "sRGB": "#E6C973"
+  },
+  {
+    "color": "Parchment Coloring",
+    "sRGB": "#FFEFBF"
+  },
+  {
+    "color": "Cream Coloring",
+    "sRGB": "#F5F5DC"
+  },
+  {
+    "color": "Brick Coloring",
+    "sRGB": "#994326"
+  },
+  {
+    "color": "Tangerine Coloring",
+    "sRGB": "#FFA424"
+  },
+  {
+    "color": "Gold Coloring",
+    "sRGB": "#FFC000"
+  },
+  {
+    "color": "Mustard Coloring",
+    "sRGB": "#F0F032"
+  },
+  {
+    "color": "Craggy-Dew Coloring",
+    "sRGB": "#B3E912"
+  },
+  {
+    "color": "Grass Coloring",
+    "sRGB": "#227330"
+  },
+  {
+    "color": "Stream Coloring",
+    "sRGB": "#2AC6B6"
+  },
+  {
+    "color": "Marine Coloring",
+    "sRGB": "#007189"
+  },
+  {
+    "color": "Haze Coloring",
+    "sRGB": "#535872"
+  },
+  {
+    "color": "Dusk Coloring",
+    "sRGB": "#8F4EA5"
+  },
+  {
+    "color": "Thistle Coloring",
+    "sRGB": "#E6C3DD"
+  },
+  {
+    "color": "Bubblegum Coloring",
+    "sRGB": "#FFBFCF"
+  }
+]
