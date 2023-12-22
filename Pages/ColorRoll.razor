@@ -1,0 +1,46 @@
+﻿@page "/color"
+@using ArkTools.Data
+@inject DinoColorService ColorService
+
+<PageTitle>Color Roll</PageTitle>
+
+<MudCard>
+    <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h4">Random Color Roll</MudText>
+        </CardHeaderContent>
+    </MudCardHeader>
+    <MudForm>
+        <MudCardContent>
+            <MudButton OnClick="GetRandomColor" Variant="Variant.Filled" Label="">Generate random color and region!</MudButton>
+        </MudCardContent>
+    </MudForm>
+</MudCard>
+<br />
+
+@if (selectedColor is not null)
+{
+    <MudPaper>
+        <MudChipSet Clickable="false">
+            <MudChip Icon="@Icons.Material.Filled.Palette" Size="Size.Large" Style="white-space:pre;">New color is <div style="color:@selectedColor.SRGB;"><b>@selectedColor!.Color</b></div> in region <b>@region</b>!</MudChip>
+        </MudChipSet>
+    </MudPaper>
+}
+
+
+@code {
+    private List<DinoColor>? dinoColors;
+    private DinoColor? selectedColor;
+    private int region;
+
+    protected override async Task OnInitializedAsync() => 
+        dinoColors = await ColorService.GetDinoColorsAsync();
+
+    private void GetRandomColor()
+    {
+        Random random = new Random();
+        int randomIndex = random.Next(0, dinoColors!.Count);
+        region = Random.Shared.Next(0, 5);
+        selectedColor = dinoColors[randomIndex]; //Random.Shared.Next(dinoColors!.ToArray(), 1)[0];
+    }
+}

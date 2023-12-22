@@ -1,9 +1,8 @@
 ﻿@page "/baby"
-@rendermode InteractiveServer
 
 <PageTitle>BabyLevelCalculator</PageTitle>
 
-<MudCard Style="width:400px">
+<MudCard>
     <MudCardHeader>
         <CardHeaderContent>
             <MudText Typo="Typo.h6">Baby Level Calculator</MudText>
@@ -11,8 +10,9 @@
     </MudCardHeader>
     <MudForm>
         <MudCardContent>
-            <MudTextField @bind-Value="motherLevel" Label="Mother Level"  Variant="Variant.Outlined"/>
-            <MudTextField @bind-Value="fatherLevel" Label="Father Level"  Variant="Variant.Outlined"/>
+            <MudTextField @bind-Value="motherLevel" Label="Mother Level"  Variant="Variant.Filled"/>
+            <MudTextField @bind-Value="fatherLevel" Label="Father Level"  Variant="Variant.Filled"/>
+            <br />
             <MudButton OnClick="HatchDino" Variant="Variant.Filled" Label="">Hatch!</MudButton>
         </MudCardContent>
     </MudForm>
@@ -21,13 +21,16 @@
 
 @if(messageList.Count > 0)
 {
-    <MudPaper Width="400px">
-        <MudList Clickable="false">
-            @foreach (string message in messageList.TakeLast(5))
+    <MudPaper>
+        <MudChipSet Clickable="false">
+            @foreach (string message in messageList.Take(3))
             {
-                <MudListItem Text="@message" Icon="@Icons.Material.Filled.EggAlt" Style="@($"color:{lightenStyle};")" />
+                int index = messageList.IndexOf(message);
+                Size size = index.Equals(0) ? Size.Large : Size.Small;
+                bool isDisabled = index.Equals(0) ? false : true;
+                <MudChip Icon="@Icons.Material.Filled.EggAlt" Text="@message" Size="@size" Disabled="isDisabled" />
             }
-        </MudList>
+        </MudChipSet>
     </MudPaper>
 }
 
@@ -37,8 +40,6 @@
     private int fatherLevel;
     private string? hatchMessage;
     private List<string> messageList = new();
-
-    private string lightenStyle = "Colors.Grey.Lighten1";
 
     private void HatchDino()
     {
@@ -59,8 +60,10 @@
             _              => throw new Exception()
         };
 
-        hatchMessage = $"you had {dinoCount} bab{(dinoCount.Equals(1) ? "y" : "ies")}, level {level}, spawn level {Math.Round(level/1.5)}!";
-        messageList = messageList.Prepend(hatchMessage).ToList();
+        string babyPlurality = $"bab{(dinoCount.Equals(1) ? "y" : "ies")}";
+        int spawnLevel = (int)Math.Round(level / 1.5);
+        hatchMessage = $"you had {dinoCount} {babyPlurality}, level {level}, spawn level {spawnLevel}!";
+        messageList = messageList.Prepend(hatchMessage).ToList(); //prepending to list to ensure newest message appears on top
     }
 
     private int GetRandomLevel(int levelOne, int levelTwo) => 
@@ -78,11 +81,5 @@
         };
 
         return result;
-    }
-
-    private void UpdateStyle(int index)
-    {
-        lightenStyle = $"Colors.Grey.Lighten{index}";
-        StateHasChanged();
     }
 }
