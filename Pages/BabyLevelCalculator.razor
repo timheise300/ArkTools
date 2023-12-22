@@ -1,9 +1,8 @@
 ﻿@page "/baby"
-@rendermode InteractiveServer
 
 <PageTitle>BabyLevelCalculator</PageTitle>
 
-<MudCard Style="width:500px">
+<MudCard>
     <MudCardHeader>
         <CardHeaderContent>
             <MudText Typo="Typo.h6">Baby Level Calculator</MudText>
@@ -11,8 +10,9 @@
     </MudCardHeader>
     <MudForm>
         <MudCardContent>
-            <MudTextField @bind-Value="motherLevel" Label="Mother Level"  Variant="Variant.Outlined"/>
-            <MudTextField @bind-Value="fatherLevel" Label="Father Level"  Variant="Variant.Outlined"/>
+            <MudTextField @bind-Value="motherLevel" Label="Mother Level"  Variant="Variant.Filled"/>
+            <MudTextField @bind-Value="fatherLevel" Label="Father Level"  Variant="Variant.Filled"/>
+            <br />
             <MudButton OnClick="HatchDino" Variant="Variant.Filled" Label="">Hatch!</MudButton>
         </MudCardContent>
     </MudForm>
@@ -21,9 +21,9 @@
 
 @if(messageList.Count > 0)
 {
-    <MudPaper Width="500px">
+    <MudPaper>
         <MudChipSet Clickable="false">
-            @foreach (string message in messageList.TakeLast(3))
+            @foreach (string message in messageList.Take(3))
             {
                 int index = messageList.IndexOf(message);
                 Size size = index.Equals(0) ? Size.Large : Size.Small;

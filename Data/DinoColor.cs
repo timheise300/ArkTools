@@ -1,4 +1,4 @@
-﻿namespace ArkTools;
+﻿namespace ArkTools.Data;
 
 public class DinoColor
 {
